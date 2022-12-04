@@ -1,0 +1,170 @@
+body {
+  background-color: #e4e4e7;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 16px;
+  padding: 1px;
+}
+
+.title {
+  color: rgba(0, 0, 0, 0.7);;
+  padding-top: 10px;
+  text-align: center;
+}
+.container-form{
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.preview-card {
+  align-items: center;
+  background-color: #d4d4d8;
+  border-radius: 5px;
+  box-shadow: 1px 1px 20px rgba(42, 42, 42, 0.513);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  width: min-content;
+
+}
+
+.search {
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 2px solid black;
+  border-radius: 15px;
+  color: white;
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 20px;
+  justify-content: space-evenly;
+  margin: auto;
+  padding: 15px 0px 15px 0px;
+}
+
+.start-game {
+  align-items: center;
+  background-color: #d4d4d8;
+  border: 2px solid black ;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  padding-bottom: 10px;
+  padding-left: 0;
+  padding-top: 10px;
+}
+
+.inputs-form {
+  background-color: rgba(0, 0, 0, 0.7);
+  /* border: 8px solid transparent;
+  border-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(255, 255, 255));
+  border-image-slice: 1; */
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px rgb(0, 0, 0);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  text-align: center;
+  width: min-content;
+}
+
+.container-cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.cards {
+  align-items: center;
+  background-color: #d4d4d8;
+  border: 8px solid transparent;
+  border-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(255, 255, 255));
+  border-image-slice: 1;
+  border-radius: 5px;
+  box-shadow: 1px 1px 20px rgba(42, 42, 42, 0.513);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  width: min-content;
+  
+}
+
+.cardImage {
+  border-radius: 5px;
+  width: 120px;
+}
+
+.img-trunfo {
+  padding: 10px;
+  width: 80px;
+}
+
+.text-trunfo {
+  font-size: 13px;
+  margin: 0;
+}
+
+.container-start {
+  align-items: center;
+  background-color: #e4e4e7;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.start {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 5px;
+}
+
+.start > .btn-primary {
+  margin-bottom: 10px;
+}
+
+.card-start {
+  background-color: #d4d4d8;
+  border: 8px solid transparent;
+  border-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(255, 255, 255));
+  border-image-slice: 1;
+  border-radius: 5px;
+  box-shadow: 1px 1px 20px rgba(42, 42, 42, 0.513);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  text-align: center;
+  width: min-content;
+}
+
+textarea {
+  background-color: rgba(177, 177, 177, 0.366);
+  border: none;
+  border-radius: 10px;
+  resize: none;
+}
+
+input, select, button {
+  background-color: rgba(177, 177, 177, 0.366);
+  border: 0.5px solid black;
+  border-radius: 4px;
+  margin-left: 5px;
+}
+
+label {
+  font-size: 17px;
+}
