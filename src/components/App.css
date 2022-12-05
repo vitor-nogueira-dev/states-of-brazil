@@ -18,7 +18,13 @@ body {
   justify-content: space-evenly;
   padding: 10px;
 }
-
+.infos {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #e4e4e7; */
+}
 .preview-card {
   align-items: center;
   background-color: #d4d4d8;
@@ -36,10 +42,12 @@ body {
 }
 
 .search {
-  background-color: rgba(0, 0, 0, 0.7);
-  border: 2px solid black;
+  background-color: #fde047;
+  background-image: linear-gradient(to right, #22c55e, #facc15);
+  color: #14532d;
+  border: 2px solid #14532d;
   border-radius: 15px;
-  color: white;
+  /* color: white; */
   display: flex;
   flex-flow: row wrap;
   font-size: 20px;
@@ -87,7 +95,7 @@ body {
   align-items: center;
   background-color: #d4d4d8;
   border: 8px solid transparent;
-  border-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(255, 255, 255));
+  border-image: linear-gradient(to bottom, #22c55e, #facc15);
   border-image-slice: 1;
   border-radius: 5px;
   box-shadow: 1px 1px 20px rgba(42, 42, 42, 0.513);
@@ -99,7 +107,12 @@ body {
   padding: 10px;
   text-align: center;
   width: min-content;
-  
+  opacity: 0.6;
+}
+.cards:hover {
+  opacity: 1;
+  transition: 0.5s;
+  animation: backwards;
 }
 
 .cardImage {
@@ -107,16 +120,9 @@ body {
   width: 120px;
 }
 
-.img-trunfo {
-  padding: 10px;
-  width: 80px;
+.p-economia {
+  text-align: justify;
 }
-
-.text-trunfo {
-  font-size: 13px;
-  margin: 0;
-}
-
 .container-start {
   align-items: center;
   background-color: #e4e4e7;
@@ -124,31 +130,6 @@ body {
   flex-flow: row wrap;
   justify-content: space-evenly;
   padding: 20px;
-}
-.start {
-  display: flex;
-  flex-flow: column wrap;
-  margin: 5px;
-}
-
-.start > .btn-primary {
-  margin-bottom: 10px;
-}
-
-.card-start {
-  background-color: #d4d4d8;
-  border: 8px solid transparent;
-  border-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(255, 255, 255));
-  border-image-slice: 1;
-  border-radius: 5px;
-  box-shadow: 1px 1px 20px rgba(42, 42, 42, 0.513);
-  color: black;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 10px;
-  text-align: center;
-  width: min-content;
 }
 
 textarea {
@@ -159,8 +140,8 @@ textarea {
 }
 
 input, select, button {
-  background-color: rgba(177, 177, 177, 0.366);
-  border: 0.5px solid black;
+  background-color: #fef08a;
+  border: 0.5px solid #14532d;
   border-radius: 4px;
   margin-left: 5px;
 }

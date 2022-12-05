@@ -1,50 +1,43 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
-import superTrunfo from './super_trunfo.png';
 import './App.css';
 
 export default class Card extends Component {
   render() {
     const {
-      cardName,
-      cardDescription,
-      cardAttr1,
-      cardAttr2,
-      cardAttr3,
-      cardImage,
-      cardRare,
-      cardTrunfo,
+      nome,
+      bandeira,
+      curiosidade,
+      sigla,
+      capital,
+      populacao,
+      economia
     } = this.props;
     return (
-
       <div className="preview">
         <div>
-          <h1 data-testid="name-card">{cardName}</h1>
-          <p data-testid="description-card">{cardDescription}</p>
+          <h1 className=''>{nome}</h1>
+          <p> <strong>Curiosidade:</strong> {curiosidade}</p>
           <img
-            src={ cardImage }
-            alt={ cardName }
-            data-testid="image-card"
+            src={ bandeira }
+            alt={ nome }
             className="cardImage"
           />
-          <h4 data-testid="attr1-card">
-            Attr01.....................
-            {cardAttr1}
-          </h4>
-          <h4 data-testid="attr2-card">
-            Attr02.....................
-            {cardAttr2}
-          </h4>
-          <h4 data-testid="attr3-card">
-            Attr03.....................
-            {cardAttr3}
-          </h4>
-          <p data-testid="rare-card">{cardRare}</p>
-          { cardTrunfo && <img
-            src={ superTrunfo }
-            alt="logo super trunfo"
-            className="img-trunfo"
-          /> }
+            <div className="infos">
+              <h5>
+                Sigla................
+                {sigla}
+              </h5>
+              <h5>
+                Capital................
+                {capital}
+              </h5>
+              <h5>
+                População................
+                {populacao}
+              </h5>
+            </div>
+          <p className="p-economia"><strong>Economia:</strong> {economia}</p>
         </div>
       </div>
     );
