@@ -38,7 +38,10 @@ body {
   padding: 10px;
   text-align: center;
   width: min-content;
+}
 
+.preview {
+  width: 350px;
 }
 
 .search {
@@ -104,9 +107,10 @@ body {
   flex-direction: column;
   justify-content: center;
   margin-top: 10px;
-  padding: 10px;
+  padding: 1.5px;
   text-align: center;
-  width: min-content;
+  width: 380px;
+  /* width: min-content; */
   opacity: 0.6;
 }
 .cards:hover {
