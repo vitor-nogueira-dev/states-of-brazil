@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+## Projeto (extra-curricular) - States of Brasil 🃏
+---
+#### ⏳ Projeto desenvolvido durante o curso de desenvolvimento web Full Stack na [Trybe](https://www.betrybe.com/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### States of brasil 🇧🇷
 
-## Available Scripts
+Os estados do Brasil também são chamados de unidades federativas e ocupam as cinco regiões brasileiras: região Norte, região Nordeste, região Centro-Oeste, região Sudeste e região Sul.
 
-In the project directory, you can run:
+São 26 estados e o Distrito Federal, que funciona como a capital do país. A atual divisão político-administrativa brasileira é de 1988.
 
-### `npm start`
+Devido ao grande território, podemos encontrar diferentes características em aspectos climáticos, topográficos, cobertura vegetal, econômicos, culturais, sociais e históricos em cada estado.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Cada estado do Brasil tem uma sigla, uma capital e algumas características específicas.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
+🔗Conheça todos os estados e algumas de suas características [States of Brazil](https://states-of-brazil-vn.netlify.app/)
+---
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+#### 🔗 Linkedin [Vitor Nogueira](https://www.linkedin.com/in/vitor-noqueira-913a9284/) ✅
+---
