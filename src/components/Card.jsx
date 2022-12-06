@@ -17,11 +17,12 @@ export default class Card extends Component {
       <div className="preview">
         <div>
           <h1 className=''>{nome}</h1>
-          <p> <strong>Curiosidade:</strong> {curiosidade}</p>
+          <p> <strong>Curiosidade: </strong> 
+          {!curiosidade ? 'Nada consta' : curiosidade }</p>
           <img
             src={ bandeira }
             alt={ nome }
-            className="cardImage"
+            className="bandeiras"
           />
             <div className="infos">
               <h5>
@@ -49,7 +50,7 @@ Card.propTypes = {
   cardAttr2: PropTypes.string,
   cardAttr3: PropTypes.string,
   cardDescription: PropTypes.string,
-  cardImage: PropTypes.string,
+  bandeira: PropTypes.string,
   cardName: PropTypes.string,
   cardRare: PropTypes.string,
   cardTrunfo: PropTypes.bool,

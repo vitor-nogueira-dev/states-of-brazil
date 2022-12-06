@@ -285,7 +285,9 @@ const acesse = "Veja mais sobre Estados do Brasil em:https://brasilescola.uol.co
 console.log(acesse);
 
 export default STATES_OF_BRASIL
-// const t = {
+
+// Modelo {obj}: 
+// const modelo = {
 //   nome: '', 
 //   bandeira: '',
 //   curiosidade: '',
