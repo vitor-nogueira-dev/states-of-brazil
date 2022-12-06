@@ -1,0 +1,40 @@
+.container-cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.cards {
+  align-items: center;
+  background-color: #d4d4d8;
+  border: 8px solid transparent;
+  border-image: linear-gradient(to bottom, #22c55e, #facc15);
+  border-image-slice: 1;
+  border-radius: 5px;
+  box-shadow: 1px 1px 20px rgba(42, 42, 42, 0.513);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+  opacity: 0.6;
+  padding: 10px;
+  text-align: center;
+  width: 380px;
+}
+
+.cards:hover {
+  animation: backwards;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.bandeiras {
+  border-radius: 5px;
+  width: 120px;
+}
+
+.p-economia, .p-curiosidade {
+  text-align: justify;
+}

@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
-import './App.css';
+import './css/Card.css';
 
 export default class Card extends Component {
   render() {
@@ -16,8 +16,8 @@ export default class Card extends Component {
     return (
       <div className="preview">
         <div>
-          <h1 className=''>{nome}</h1>
-          <p> <strong>Curiosidade: </strong> 
+          <h1>{nome}</h1>
+          <p className="p-curiosidade"> <strong>Curiosidade: </strong> 
           {!curiosidade ? 'Nada consta' : curiosidade }</p>
           <img
             src={ bandeira }
